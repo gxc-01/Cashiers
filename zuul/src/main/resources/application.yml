@@ -1,0 +1,14 @@
+server:
+  port: 15000
+spring:
+  application:
+    name: gateway
+eureka:
+  instance:
+    prefer-ip-address: true #表示注册时，使用ip注册，而不是使用主机名称
+  client:
+    service-url:
+      defaultZone: http://192.168.43.153:8889/eureka/
+zuul:
+  routes:
+    provider: /p/**

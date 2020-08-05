@@ -1,0 +1,13 @@
+rootProject.name = 'Cashier '
+include 'eureka'
+include 'eurekaclient'
+include 'zuul'
+include 'resttemplate'
+include 'ribbon'
+include 'fegin'
+include 'hystrix'
+include 'hystrix'
+include 'nativeconf'
+include 'zipkin'
+include 'zipkinclient'
+

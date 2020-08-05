@@ -1,0 +1,10 @@
+server:
+  port: 8889
+eureka:
+  client:
+    register-with-eureka: false #false时，表示单机模式（非集群），如果为true表示会向其他注册中心进行注册
+    fetch-registry: false #拉取注册信息
+    service-url:
+      defaultZone: http://192.168.43.153:8889/eureka/
+#  server:
+#    enable-self-preservation: false #是否开启eureka服务器的自我保护

@@ -1,0 +1,7 @@
+dependencies {
+    //eureka:注册中心,服务器 、nacos(阿里)
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-server'
+    compile('javax.xml.bind:jaxb-api:2.3.0')
+    compile('javax.activation:activation:1.1')
+    compile('org.glassfish.jaxb:jaxb-runtime:2.3.0')
+}

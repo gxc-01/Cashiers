@@ -1,0 +1,18 @@
+# Project exclude paths
+/.gradle/
+/eureka/build/
+/eureka/build/classes/java/main/
+/eurekaclient/build/
+/eurekaclient/build/classes/java/main/
+/fegin/build/
+/fegin/build/classes/java/main/
+/hystrix/build/
+/hystrix/build/classes/java/main/
+/ribbon/build/
+/ribbon/build/classes/java/main/
+/zipkin/build/
+/zipkin/build/classes/java/main/
+/zipkinclient/build/
+/zipkinclient/build/classes/java/main/
+/zuul/build/
+/zuul/build/classes/java/main/

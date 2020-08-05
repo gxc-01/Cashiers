@@ -1,0 +1,6 @@
+
+dependencies {
+    compile group: 'io.zipkin.java', name: 'zipkin-server'  //服务端
+    compile group: 'io.zipkin.java', name: 'zipkin-autoconfigure-ui'  //图形界面
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+}
